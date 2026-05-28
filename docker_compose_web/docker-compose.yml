@@ -1,0 +1,5 @@
+services:
+  helloworld:
+    build: .
+    ports:
+      - "8098:5000"
